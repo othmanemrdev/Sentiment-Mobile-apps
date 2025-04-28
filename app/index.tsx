@@ -104,7 +104,7 @@ export default function App() {
 
   return (
     <ScrollView style={styles.container}>
-      <Text style={styles.header}>Sentiment Analysis App</Text>
+      <Text style={styles.header}>Sentiment Analysis App by nouhaila & lamya & salma & othmane</Text>
 
       {(['imdb', 'yelp', 'amazon', 'merged'] as const).map(platform => (
         <View key={platform} style={styles.section}>
